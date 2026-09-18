@@ -1,0 +1,104 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f4f7;
+    text-align: center;
+    padding: 30px;
+    color: #222;
+}
+
+main {
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.pagina h1 {
+    color: #2563eb;
+    font-size: 40px;
+}
+
+h1 {
+    color: #333;
+    font-size: 28px;
+}
+
+p {
+    font-size: 17px;
+}
+
+button {
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #1d4ed8;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+input:focus {
+    outline: none;
+    border-color: #2563eb;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 35px 0;
+}
+
+.mensagem h2 {
+    color: #2563eb;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background-color: #f2f4f7;
+    padding: 10px;
+    margin: 5px auto;
+    border-radius: 5px;
+    max-width: 400px;
+}
+
+table {
+    margin: 25px auto;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2563eb;
+    color: white;
+}
+
+th,
+td {
+    padding: 10px 18px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+td button {
+    background-color: #dc2626;
+}
+
+td button:hover {
+    background-color: #b91c1c;
+}
